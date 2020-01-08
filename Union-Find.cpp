@@ -11,7 +11,7 @@ int Find(int x) {
 	}
 	else {
 		
-		return Find(parent[x]); // 다르면 부모를 찾아서 리턴
+		return parent[x] = Find(parent[x]); // 다르면 부모를 찾아서 리턴
 	}
 }
 void Union(int x, int y) {
