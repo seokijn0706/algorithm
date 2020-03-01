@@ -1,3 +1,10 @@
+/*
+Path Compression Union Find 알고리즘
+시간 복잡도
+Find : O(logN)
+Union : O(logN)
+*/
+
 #include <iostream>
 using namespace std;
 
